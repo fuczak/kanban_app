@@ -1,0 +1,19 @@
+{
+  "name": "kanban_app",
+  "version": "1.0.0",
+  "description": "Kanban app via SurviveJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuczak/kanban_app.git"
+  },
+  "author": "fuczak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fuczak/kanban_app/issues"
+  },
+  "homepage": "https://github.com/fuczak/kanban_app#readme"
+}
