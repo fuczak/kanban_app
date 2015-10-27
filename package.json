@@ -33,5 +33,9 @@
     "style-loader": "^0.13.0",
     "webpack": "^1.12.2",
     "webpack-merge": "^0.2.0"
+  },
+  "dependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
   }
 }
