@@ -22,6 +22,8 @@ export default class App extends React.Component {
         }
       ]
     };
+
+    this.addNote = this.addNote.bind(this);
   }
 
   render() {
@@ -29,8 +31,18 @@ export default class App extends React.Component {
 
     return (
       <div>
+        <button className="add-note" onClick={this.addNote}>+</button>
         <Notes items={notes} />
       </div>
     );
+  }
+
+  addNote() {
+    this.setState({
+      notes: [...this.state.notes, {
+        id: uuid.v4(),
+        task: 'New task'
+      }]
+    });
   }
 }
